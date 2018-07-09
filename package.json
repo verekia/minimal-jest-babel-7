@@ -1,0 +1,21 @@
+{
+  "name": "minimal-jest-babel-7",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node consumer.js",
+    "test": "jest"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/node": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "babel-core": "^7.0.0-0",
+    "jest": "^23.3.0"
+  }
+}
